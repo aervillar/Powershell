@@ -1,4 +1,4 @@
-# Import Azure Powershell Module and Login if required
+## Import Azure Powershell Module and Login if required.
 $pSubsc = Get-AzSubscription
 If ($pSubsc.State -ne "Enabled") {
     Import-Module -Name Az
